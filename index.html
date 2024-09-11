@@ -12,6 +12,8 @@
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="./assets/css/styles.css">
 
 </head>
@@ -35,6 +37,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#mis-proyectos">Mis Proyectos</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#mis-habiliddes">Mis Habilidades</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -116,12 +124,88 @@
          </section>
         <!-- FIN SECCIÓN MIS PROYECTOS -->
 
+         <!-- INICIO SECCIÓN MIS HABILIDADES -->
+          <section id="mis-habilidades" class="py-5">
+            <h2 class="text-center">Mis habilidades</h2>
+            <hr>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 py-5">
+              <div class="col">
+                <p>JavaScript</p>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col">
+                <p>HTML</p>
+                <div class="progress">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col">
+                <p>CSS</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col">
+                <p>Python</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+         <!-- FIN SECCIÓN MIS HABILIDADES -->
     </main>
     <!-- FIN MAIN -->
+     <section id="contacto" class="py-5 bg-warning-subtle">
+      <h2 class="text-center">Contacto</h2>
+      <div class="container">
+         <hr>
+         <div class="row">
+          <div class="col">
+            <form>
+              <div>
+                <label for="contacto-nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" name="nombre" id="contacto-nombre" required>
+              </div>
+              <div>
+                <label for="contacto-email" class="form-label">Email:</label>
+                <input type="email" class="form-control" name="nombre" id="contacto-email" required>
+              </div>
+              <div>
+                <input type="submit" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>    
+     </section>
 
     <!-- INICIO FOOTER -->
     <footer class="py-5 bg-secondary-subtle">
-        <section id="redes-sociales">
+        <section id="redes-sociales" class="container">
+          <div class="row justify-content-center text-center g-3">
+            <div class="col-4 col-md-2">
+              <a href="https://facebook.com" target="_blank">
+                <i class="bi bi-facebook text-primary"></i>
+              </a>
+              
+            </div>
+            <div class="col-4 col-md-2">
+              <a href="https://linkedin.com" target="_blank">
+                <i class="bi bi-linkedin text-info"></i>
+              </a>
+              
+            </div>
+            <div class="col-4 col-md-2">
+              <a href="https://github.com" target="_blank">
+                <i class="bi bi-github text-dark"></i>
+              </a>
+              
+            </div>
+          </div>
 
         </section>
         <section>

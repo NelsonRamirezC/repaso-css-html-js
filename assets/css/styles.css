@@ -2,3 +2,8 @@
     width: 100%;
     aspect-ratio: 3/2;
 }
+
+
+#redes-sociales i {
+    font-size: 50px;
+}
