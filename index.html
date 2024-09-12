@@ -1,218 +1,262 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Samsung, LG, Mattel">
-    <meta name="description" content="Venta de productos al detalle">
-    <meta name="author" content="mi nombre">
-    <title>Mi página</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Samsung, LG, Mattel">
+	<meta name="description" content="Venta de productos al detalle">
+	<meta name="author" content="mi nombre">
+	<title>Mi página</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <link rel="stylesheet" href="./assets/css/styles.css">
+	<script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.0/dist/sweetalert2.all.min.js
+"></script>
+
+	<link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.0/dist/sweetalert2.min.css
+" rel="stylesheet">
+
+
+	<script defer src="./assets/js/script.js"></script>
+
+	<link rel="stylesheet" href="./assets/css/styles.css">
 
 </head>
+
 <body>
 
-    <!-- INICIO NAVBAR -->
+	<!-- INICIO NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#presentacion">Sobre mí</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mis-proyectos">Mis Proyectos</a>
-              </li>
-              <li class="nav-item"></li>
-                <a class="nav-link" href="#mis-habiliddes">Mis Habilidades</a>
-              </li>
-              <li class="nav-item"></li>
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!-- FIN NAVBAR -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#presentacion">Sobre mí</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#mis-proyectos">Mis Proyectos</a>
+					</li>
+					<li class="nav-item"></li>
+					<a class="nav-link" href="#mis-habiliddes">Mis Habilidades</a>
+					</li>
+					<li class="nav-item"></li>
+					<a class="nav-link" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- FIN NAVBAR -->
 
-    <!-- INICIO HEADER -->
-    <header class="py-5">
-        <h1 class="text-center">Mi Portafolio</h1>
-        <h3 class="text-center">Mi nombre...</h3>
-    </header>
-    <!-- FIN HEADER -->
+	<!-- INICIO HEADER -->
+	<header class="py-5">
+		<h1 class="text-center">Mi Portafolio</h1>
+		<h3 class="text-center">Mi nombre...</h3>
+	</header>
+	<!-- FIN HEADER -->
 
-    <!-- INICIO MAIN -->
-    <main class="container">
+	<!-- INICIO MAIN -->
+	<main class="container">
 
-        <!-- INICIO SECCIÓN PRESENTACIÓN -->
-         <section id="presentacion" class="py-3">
-            <h2 class="text-center">PRESENTACIÓN</h2>
-            <hr>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vel placeat nihil, atque nostrum dolores temporibus expedita corrupti ad nam molestias aliquam suscipit. Magnam dolore quo, dolor sed sit rerum!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad asperiores labore atque suscipit! Assumenda sint earum pariatur, tempore veniam odio reiciendis qui ducimus fugiat dolorem molestiae fugit cumque. Perferendis, aspernatur?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore beatae nam accusantium, repellendus molestiae doloremque illo alias iusto odit at voluptates quos obcaecati consectetur tempore ducimus, veniam incidunt distinctio quod?</p>
-            </div>
-         </section>
-        <!-- FIN SECCIÓN PRESENTACIÓN -->
+		<!-- INICIO SECCIÓN PRESENTACIÓN -->
+		<section id="presentacion" class="py-3">
+			<h2 class="text-center">PRESENTACIÓN</h2>
+			<hr>
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vel placeat nihil, atque nostrum dolores
+					temporibus expedita corrupti ad nam molestias aliquam suscipit. Magnam dolore quo, dolor sed sit
+					rerum!</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad asperiores labore atque suscipit!
+					Assumenda sint
+					earum pariatur, tempore veniam odio reiciendis qui ducimus fugiat dolorem molestiae fugit cumque.
+					Perferendis,
+					aspernatur?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore beatae nam accusantium, repellendus
+					molestiae
+					doloremque illo alias iusto odit at voluptates quos obcaecati consectetur tempore ducimus, veniam
+					incidunt
+					distinctio quod?</p>
+			</div>
+		</section>
+		<!-- FIN SECCIÓN PRESENTACIÓN -->
 
-          <!-- INICIO SECCIÓN MIS PROYECTOS -->
-          <section id="mis-proyectos" class="py-3">
-            <h2 class="text-center">MIS PROYECTOS</h2>
-            <hr>
-            <div class="row g-3">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://picsum.photos/id/686/600/400" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto 1</h5>
-                          <p class="card-text">Este es mi proyecto 1</p>
-                          <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
-                      </div>
-                </div>
+		<!-- INICIO SECCIÓN MIS PROYECTOS -->
+		<section id="mis-proyectos" class="py-3">
+			<h2 class="text-center">MIS PROYECTOS</h2>
+			<hr>
+			<div class="row g-3 justify-content-center">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card" style="width: 100%;">
+						<img src="https://picsum.photos/id/686/600/400" class="card-img-top" alt="Proyecto 1">
+						<div class="card-body">
+							<h5 class="card-title">Proyecto 1</h5>
+							<p class="card-text">Este es mi proyecto 1</p>
+							<a href="#" class="btn btn-primary">Ver más</a>
+						</div>
+					</div>
+				</div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://picsum.photos/id/684/600/400" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto 1</h5>
-                          <p class="card-text">Este es mi proyecto 1</p>
-                          <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
-                      </div>
-                </div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card" style="width: 100%;">
+						<img src="https://picsum.photos/id/684/600/400" class="card-img-top" alt="Proyecto 1">
+						<div class="card-body">
+							<h5 class="card-title">Proyecto 1</h5>
+							<p class="card-text">Este es mi proyecto 1</p>
+							<a href="#" class="btn btn-primary">Ver más</a>
+						</div>
+					</div>
+				</div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://picsum.photos/id/687/600/400" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto 1</h5>
-                          <p class="card-text">Este es mi proyecto 1</p>
-                          <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
-                      </div>
-                </div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card" style="width: 100%;">
+						<img src="https://picsum.photos/id/687/600/400" class="card-img-top" alt="Proyecto 1">
+						<div class="card-body">
+							<h5 class="card-title">Proyecto 1</h5>
+							<p class="card-text">Este es mi proyecto 1</p>
+							<a href="#" class="btn btn-primary">Ver más</a>
+						</div>
+					</div>
+				</div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card" style="width: 100%;">
-                        <img src="https://picsum.photos/id/688/600/400" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto 1</h5>
-                          <p class="card-text">Este es mi proyecto 1</p>
-                          <a href="#" class="btn btn-primary">Ver más</a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-         </section>
-        <!-- FIN SECCIÓN MIS PROYECTOS -->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card" style="width: 100%;">
+						<img src="https://picsum.photos/id/688/600/400" class="card-img-top" alt="Proyecto 1">
+						<div class="card-body">
+							<h5 class="card-title">Proyecto 1</h5>
+							<p class="card-text">Este es mi proyecto 1</p>
+							<a href="#" class="btn btn-primary">Ver más</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FIN SECCIÓN MIS PROYECTOS -->
 
-         <!-- INICIO SECCIÓN MIS HABILIDADES -->
-          <section id="mis-habilidades" class="py-5">
-            <h2 class="text-center">Mis habilidades</h2>
-            <hr>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 py-5">
-              <div class="col">
-                <p>JavaScript</p>
-                <div class="progress">
-                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col">
-                <p>HTML</p>
-                <div class="progress">
-                  <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col">
-                <p>CSS</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="col">
-                <p>Python</p>
-                <div class="progress">
-                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-            </div>
-          </section>
+		<!-- INICIO SECCIÓN MIS HABILIDADES -->
+		<section id="mis-habilidades" class="py-5">
+			<h2 class="text-center">Mis habilidades</h2>
+			<hr>
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 py-5">
+				<div class="col">
+					<p>JavaScript</p>
+					<div class="progress">
+						<div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div class="col">
+					<p>HTML</p>
+					<div class="progress">
+						<div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div class="col">
+					<p>CSS</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div class="col">
+					<p>Python</p>
+					<div class="progress">
+						<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-         <!-- FIN SECCIÓN MIS HABILIDADES -->
-    </main>
-    <!-- FIN MAIN -->
-     <section id="contacto" class="py-5 bg-warning-subtle">
-      <h2 class="text-center">Contacto</h2>
-      <div class="container">
-         <hr>
-         <div class="row">
-          <div class="col">
-            <form>
-              <div>
-                <label for="contacto-nombre" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" name="nombre" id="contacto-nombre" required>
-              </div>
-              <div>
-                <label for="contacto-email" class="form-label">Email:</label>
-                <input type="email" class="form-control" name="nombre" id="contacto-email" required>
-              </div>
-              <div>
-                <input type="submit" class="btn btn-primary">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>    
-     </section>
+		<!-- FIN SECCIÓN MIS HABILIDADES -->
+	</main>
+	<!-- FIN MAIN -->
+	<section id="contacto" class="py-5 bg-warning-subtle">
+		<h2 class="text-center">Contacto</h2>
+		<div class="container">
+			<hr>
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-6">
+					<form id="formulario-contacto">
+						<div>
+							<label for="contacto-nombre" class="form-label">Nombre:</label>
+							<input type="text" class="form-control" name="nombre" id="contacto-nombre" required>
+						</div>
+						<div>
+							<label for="contacto-email" class="form-label">Email:</label>
+							<input type="email" class="form-control" name="email" id="contacto-email" required
+								placeholder="Formato: correo@correo.cl">
+						</div>
+						<div>
+							<label for="contacto-asunto" class="form-label">Asunto:</label>
+							<input type="text" class="form-control" name="asunto" id="contacto-asunto" required>
+						</div>
+						<div>
+							<label for="contacto-mensaje" class="form-label">Mensaje:</label>
+							<textarea name="mensaje" id="contacto-mensaje" class="form-control" rows="5"
+								maxlength="500"></textarea>
+							<small>Cantidad máxima de letras: (500)</small>
+						</div>
+						<div class="py-2">
+							<input type="submit" class="btn btn-primary">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- INICIO FOOTER -->
-    <footer class="py-5 bg-secondary-subtle">
-        <section id="redes-sociales" class="container">
-          <div class="row justify-content-center text-center g-3">
-            <div class="col-4 col-md-2">
-              <a href="https://facebook.com" target="_blank">
-                <i class="bi bi-facebook text-primary"></i>
-              </a>
-              
-            </div>
-            <div class="col-4 col-md-2">
-              <a href="https://linkedin.com" target="_blank">
-                <i class="bi bi-linkedin text-info"></i>
-              </a>
-              
-            </div>
-            <div class="col-4 col-md-2">
-              <a href="https://github.com" target="_blank">
-                <i class="bi bi-github text-dark"></i>
-              </a>
-              
-            </div>
-          </div>
+	<!-- INICIO FOOTER -->
+	<footer class="py-5 bg-secondary-subtle">
+		<section id="redes-sociales" class="container">
+			<div class="row justify-content-center text-center g-3">
+				<div class="col-4 col-md-2">
+					<a href="https://facebook.com" target="_blank">
+						<i class="bi bi-facebook text-primary"></i>
+					</a>
 
-        </section>
-        <section>
-           <p class="text-center">Sitio web construído por ...</p> 
-        </section>
-    </footer>
-    <!-- FIN FOOTER -->
+				</div>
+				<div class="col-4 col-md-2">
+					<a href="https://linkedin.com" target="_blank">
+						<i class="bi bi-linkedin text-info"></i>
+					</a>
+
+				</div>
+				<div class="col-4 col-md-2">
+					<a href="https://github.com" target="_blank">
+						<i class="bi bi-github text-dark"></i>
+					</a>
+
+				</div>
+			</div>
+
+		</section>
+		<section>
+			<p class="text-center">Sitio web construído por ...</p>
+		</section>
+	</footer>
+	<!-- FIN FOOTER -->
+
 
 </body>
+
 </html>
